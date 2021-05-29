@@ -1,0 +1,175 @@
+<a name="Inicio"></a>
+<div class="slider">
+    <div class="slides">
+      <!--radio buttons start-->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <!--radio buttons end-->
+      <!--slide images start-->
+      <div class="slide first">
+        <img src="./multimedia/imagenes/MY21-Wrangler-Rubicon-392-Pure-Adrenaline-Desktop.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="./multimedia/imagenes/jeep-wrangler-rubicon-392-port-1605620194.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="./multimedia/imagenes/Jeep-Grand-Cherokee-Trackhawk-1.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="./multimedia/imagenes/Urus.jpg" alt="">
+      </div>
+      <!--slide images end-->
+      <!--automatic navigation start-->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+      <!--automatic navigation end-->
+    </div>
+    <!--manual navigation start-->
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+    <!--manual navigation end-->
+  </div>
+  <!--image slider end-->
+
+  <script type="text/javascript">
+  var counter = 1;
+  setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if(counter > 4){
+      counter = 1;
+    }
+  }, 5000);
+  </script>
+
+ 
+<a name="Servicios"></a>
+<section class="Servicios">
+    <h1 class="text">Servicios</h1>
+    <hr style="border-top: 2px solid rgb(234, 222, 222); margin: 0.5rem 0rem;">
+    <article class="caja">
+    <div class="subtitulo">
+        <img src="./multimedia/imagenes/cronicasurbanas.png" alt="" width="200px" height="200px">
+        <h3 class="ti">VENTA DE VEHICULOS</h3>
+        <p>Disponemos de una amplia
+            variedad de vehículos
+            nuevos, semi-nuevos y
+            usados, de las marcas mas
+            prestigiosas del mundo.</p>
+    </div>
+    </article>
+
+   
+    <article class="caja">
+        <div class="subtitulo">
+        <img src="./multimedia/imagenes/334-3349115_open-cash-icon-white-png.png" alt="" width="200px" height="200px">
+        <h3 class="ti">GESTION DE PRESTAMOS</h3>
+        <p>Contamos con servicios financieros provistos por reconocidas entidades bancarias con las mejores condiciones y facilidades.</p>
+    </div>
+    </article>
+
+
+    <article class="caja">
+        <div class="subtitulo">
+        <img src="./multimedia/imagenes/documw.png" alt="" width="200px" height="200px">
+        <h3 class="ti">SEGUROS</h3>
+        <p>Contamos con asesores para que consultes los diferentes planes disponibles y contrates el que más se ajuste a tus necesidades.</p>
+          </div>
+          <br><br>
+    </article>
+</section>
+ 
+<a name="Taller"></a> 
+<section class="taller">
+    
+    <div class="titulo2">
+        <h1>Taller</h1>
+        <hr style="border-top: 2px solid rgb(234, 222, 222); margin: 0.5rem 0rem;">
+        
+            <p>Contamos con la más alta tecnología y equipos de
+                vanguardia, además de un personal técnico altamente capacitado y debidamente certificado por               
+                ToolsCorp.
+                <br><br>
+                • Contamos con un almacén de repuestos origina
+                les debidamente surtido.
+                <br><br>
+                • Disponemos de un equipo completo de alineación y balanceo, dos (2) elevadores para manten
+                imientos preventivos, dos (2) computadores de diagnóstico y 7 elevadores más para reparaciones                
+                varias.</p>
+    </div>
+           
+   <div class="formulario">
+    <h1>Solicitar Servicio</h1>
+    <hr style="border-top: 2px solid rgb(234, 222, 222); margin: 0.5rem 0rem;">
+    <form class="form">
+        <div class="form-group"><label for="name">*Nombre:<br></label> <input name="name" type="text" id="name" required="required" class="form-control"></div>
+        <div class="form-group"><label for="email">*Correo Electrónico:<br></label> <input name="email" type="email" id="email" required="required" class="form-control"></div>
+        <div class="form-group"><label for="phone">*Teléfono:<br></label> <input name="phone" type="text" id="phone" required="required" class="form-control"></div>
+        <div class="form-group"><label for="message">*Servicio requerido:<br></label> <textarea name="servicio" cols="30" rows="10" class="form-control"></textarea></div>
+        <button type="submit" class="lol">
+            <a href="mailto:franklineliasdeleonperez@gmail.com?Subject=Cita%20Programada">Enviar</a></button>
+        </form>
+   </div>
+
+</section>
+<audio src="./multimedia/audio/Rochy_RD_x_Mozart_La_Para_-_Voy_Pa_La_Calle_Hoy_Video_Oficial.mp3" controls=""></audio>
+<a name="Nosotros"></a>
+<section class="Nosotros">
+    <div class="text1">
+        <img src="./multimedia/imagenes/logo_size.png">
+        <hr>
+        <br>
+        <p ><b>Visión:</b><br>
+            Ser reconocida a nivel nacional como La casa de todas las marcas de vehículos de motor , de mayor confianza y mejor calidad en el servicio.
+       
+            <br><br>
+       <b> Misión:</b><br>
+            Brindar a nuestros clientes la mejor opción de compra de vehículo ofreciendo variedad de productos y la más alta calidad en servicio, asegurando la lealtad de nuestros clientes.
+            <br><br>
+            <b> Valores:</b><br>
+            - Integridad<br>
+            - Confiabilidad<br>
+            - Compromiso<br>
+            - Excelencia<br>
+            - Lealtad
+        </p>            
+    </div>  
+</section>
+
+<section class="Contacto">
+    <a name="Contactos"></a>
+
+    <div class="col-md-6">
+        <h1><u>Contactos</u></h1>
+
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15136.211999254423!2d-69.99076534999999!3d18.48125835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sdo!4v1616084530122!5m2!1ses-419!2sdo" ></iframe>
+    </div>
+        <div class="text3">
+            <h3><u>Santo Domingo</u></h3> 
+            <p class="text3" ><b>Dirección: </b>
+                Ave. John F. Kennedy, Esq. Gracita Alvarez, Santo Domingo, Rep. Dominicana.
+                <br><br>
+           <b> Teléfono:</b>
+             (809) 334-4111
+             <br><br>
+                <b> Fax.:</b>
+                (809) 334-4100
+                <br><br>
+                <b>Email:</b> 
+                Civic@gmail.com 
+        </div> 
+
+        <img src="./multimedia/imagenes/coca.gif">
+</section>
+
+

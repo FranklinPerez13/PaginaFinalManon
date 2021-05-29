@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: black;
+    font-family: Verdana;
+    font-size: 16px;
+    min-width: 100vh;
+    display: flex;
+}
+
+.contenedor{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+
+.header{
+background: rgb(63, 63, 63);
+overflow: hidden;
+display: flex;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+}
+
+
+.logo{
+    float: left;
+    width: 300px;
+}
+/*estilos de menu*/
+.menu{
+    float: left;
+    padding: 20px 65px;
+}
+
+.opciones li{
+    float: left;
+    list-style: none;
+}
+
+.opciones li a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+}
+
+.opciones li a:hover{
+    background: rgb(122, 122, 122);
+}
+/*Slider*/
+.slider{
+    width: 100%;
+    height: 650px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+  }
+  
+  .slides input{
+    display: none;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .slide img{
+    width: 100%;
+    height: 650px;
+  }
+  
+  /*css for manual slide navigation*/
+  
+  .navigation-manual{
+    position: absolute;
+    width: 400px;
+    margin-top: 110px;
+    margin-left: 34.6%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+    background: #40D3DC;
+  }
+  
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio4:checked ~ .first{
+    margin-left: -60%;
+  }
+  
+  /*css for automatic navigation*/
+  
+  .navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 610px;
+  }
+  
+  .navigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40D3DC;
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40D3DC;
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40D3DC;
+  }
+  
+  #radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+  }
+
+
+    .Servicios{
+        overflow: hidden;
+        border-bottom: 2px solid gray;
+    }
+
+   .text{
+       color: white;
+       margin: 20px;
+       overflow: hidden;
+       text-align: center;
+       }
+
+   .caja{
+    float: left;  
+    width: 380px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.4em;
+    color: white;
+    margin: 20px;
+   }
+
+.ti {
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.taller{
+    overflow: hidden;   
+    border-bottom: 2px solid gray;
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.titulo2{
+    color: black;
+       margin: 20px;
+       margin-bottom: 1rem;
+       overflow: hidden;
+       width: 70%;
+}
+
+.formulario{
+    color: black;
+    margin: 20px;
+    overflow: hidden;   
+    height: fit-content;
+    display: block;
+    box-sizing: border-box;
+    float: right;
+    width: 30%;
+}
+
+.lol{
+    color: white; 
+    background: rgb(173, 173, 175); 
+    width: 40%;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Nosotros{
+    background-color: gray;
+    overflow: hidden;
+    border-bottom: 2px solid gray;
+    padding: 50px;
+}
+
+.text1{
+    margin: 20px;
+    color: black;
+    border: 2.5px solid black;
+    background: white;
+    background-size: 20px, 90px, auto; 
+    padding: 60px;
+    text-align: center; 
+    box-shadow: 10px 10px 5px rgb(68, 68, 68);
+}
+
+
+.col-md-12{
+    color: white;
+    margin: 20px;
+}
+
+.Contacto{
+    background: white;
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
+
+.col-md-6{
+    color: black;
+    margin: 20px;
+    margin-bottom: 1rem;
+}
+
+.mapa{
+    border: 0px;
+    width: 750px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgb(68, 68, 68);
+}
+
+.text3{
+    color: black;
+       margin: 20px;
+       margin-bottom: 1rem;
+       overflow: hidden;
+       width: 40%;
+}
+
+/* .AD{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(172, 172, 172);
+}
+
+.anuncio{
+    width: 300px;
+    height: 350px;
+   text-align: center;
+} */
+
+
+footer{  
+    margin: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.pie{
+color: white;
+text-align: center;
+width: 50%;
+}
+.next {
+    color: white;
+    margin: 20px;
+    width: 25%;
+}
+
+.fg{
+    width: 25%; 
+    height: 40px; 
+    object-fit: cover;
+}

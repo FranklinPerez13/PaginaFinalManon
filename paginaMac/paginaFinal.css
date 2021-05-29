@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: black;
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+.contenedor{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+
+.header{
+background: rgb(63, 63, 63);
+overflow: hidden;
+display: flex;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+}
+
+
+.logo{
+    float: left;
+    width: 300px;
+}
+/*estilos de menu*/
+.menu{
+    float: left;
+    padding: 20px 65px;
+}
+
+.opciones li{
+    float: left;
+    list-style: none;
+}
+
+.opciones li a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+}
+
+.opciones li a:hover{
+    background: rgb(122, 122, 122);
+}
+
+.slider{
+    margin: 10px;
+    padding: 20px;
+    border-bottom: 2px solid gray;
+}
+
+.jeep{
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-image: url("MY21-Wrangler-Rubicon-392-Pure-Adrenaline-Desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    width: 100%;
+    height: 700px;  
+}
+
+.logito{
+    margin: 50px;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    margin: 50px;
+    background-color: transparent;
+}
+.titulo1{
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    padding-top: 250px;
+    padding-bottom: 20px;
+}
+
+    .Servicios{
+        overflow: hidden;
+        border-bottom: 2px solid gray;
+    }
+
+   .text{
+       color: white;
+       margin: 20px;
+       overflow: hidden;
+       text-align: center;
+       }
+
+   .caja{
+    float: left;  
+    width: 380px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.4em;
+    color: white;
+    margin: 20px;
+   }
+
+.ti {
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.taller{
+    overflow: hidden;   
+    border-bottom: 2px solid gray;
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.titulo2{
+    color: black;
+       margin: 20px;
+       margin-bottom: 1rem;
+       overflow: hidden;
+       width: 70%;
+}
+
+.formulario{
+    color: black;
+    margin: 20px;
+    overflow: hidden;   
+    height: fit-content;
+    display: block;
+    box-sizing: border-box;
+    float: right;
+    width: 30%;
+}
+
+.lol{
+    color: white; 
+    background: rgb(173, 173, 175); 
+    width: 40%;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Nosotros{
+    background-color: gray;
+    overflow: hidden;
+    border-bottom: 2px solid gray;
+    padding: 50px;
+}
+
+.text1{
+    margin: 20px;
+    color: black;
+    border: 2.5px solid black;
+    background: white;
+    background-size: 20px, 90px, auto; 
+    padding: 60px;
+    text-align: center; 
+    box-shadow: 10px 10px 5px rgb(68, 68, 68);
+}
+
+
+.col-md-12{
+    color: white;
+    margin: 20px;
+}
+
+.Contacto{
+    background: white;
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
+
+.col-md-6{
+    color: black;
+    margin: 20px;
+    margin-bottom: 1rem;
+}
+
+.mapa{
+    border: 0px;
+    width: 750px;
+    height: 300px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgb(68, 68, 68);
+}
+
+.text3{
+    color: black;
+       margin: 20px;
+       margin-bottom: 1rem;
+       overflow: hidden;
+       width: 40%;
+}
+
+
+footer{  
+    margin: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.pie{
+color: white;
+text-align: center;
+width: 50%;
+}
+.next {
+    color: white;
+    margin: 20px;
+    width: 25%;
+}
+
+.fg{
+    width: 25%; 
+    height: 40px; 
+    object-fit: cover;
+}

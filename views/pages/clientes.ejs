@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head', {rutaCss: "./css/formularioMA.css"}); %>
+</head>
+
+<body>
+
+    <main>
+        <table border="2">
+            <tr>
+                <td>Id</td>
+                <td>Nombres</td>
+                <td>Apellido</td>
+                <td>Correo</td>
+                <td>Password</td>
+                <td>Date</td>
+            </tr>
+            <% for(var i=0; i < listaCliente.length; i++) { %>
+            <tr>
+                <td><%= listaCliente[i]._id %></td>
+                <td><%= listaCliente[i].name %></td>
+                <td><%= listaCliente[i].apellido %></td>
+                <td><%= listaCliente[i].email %></td>
+                <td><%= listaCliente[i].contraseña %></td>
+                <td><%= listaCliente[i].date %></td>
+            </tr>
+            <%} %>
+        </table>
+    </main>
+
+</body>
+
+</html>

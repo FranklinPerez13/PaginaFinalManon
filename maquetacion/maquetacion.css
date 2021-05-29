@@ -1,0 +1,80 @@
+*{
+margin: 0;
+padding: 0%;
+}
+
+
+.contenedor{
+    background: rgb(78, 78, 78);
+    width: 1200px;
+    height: 1200px;
+    border:  rgb(78, 78, 78);
+}
+
+p{
+color: white;
+}
+
+.logo{
+    background: steelblue;
+    height: 100px;
+    width: 300px;
+    float: left;
+    margin: 20px;
+}
+
+.header{
+    background: rgb(97, 169, 228);
+    height: 100px;
+    width: 800px;
+    float: right;
+    margin: 20px;
+}
+
+.slider{
+    background: rgb(2, 45, 80);
+    height: 350px;
+    width: 1075px;
+    float: left;
+    margin: 20px;
+    padding: 40px;
+}
+
+.inf1{
+    background: rgb(141, 141, 141);
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.inf2{
+    background: rgb(141, 141, 141);
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 20px;
+}
+
+.inf3{
+    background: rgb(167, 0, 83);
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin: 50px;
+}
+
+.section{
+    background: rgb(163, 255, 77);
+    height: 100px;
+    width: 1150px;
+    display: flex;
+    margin: 20px;
+}
+
+.footer{
+    background: rgb(255, 3, 3);
+    height: 90px;
+    width: 620px;
+    display: flex;
+}
