@@ -63,8 +63,8 @@ router.get('/home', (req, res) => {
     res.render('pages/index')
 })
 
-// router.get('/form', (req, res) => {
-//     res.render('pages/formulario')
-// })
+router.get('/form', (req, res) => {
+    res.render('pages/formulario')
+})
 
 module.exports = router;
